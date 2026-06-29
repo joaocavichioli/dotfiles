@@ -1,0 +1,172 @@
+[general]
+font-sans = "JetBrainsMono Nerd Font"
+font-mono = "JetBrainsMono Nerd Font"
+
+[bar]
+scale = 0.8500000238418579
+button-variant = "basic"
+button-rounding = "none"
+button-group-border-location = "all"
+button-group-background = "bg-surface-elevated"
+button-group-border-color = "#cba6f7"
+button-group-rounding = "none"
+
+[[bar.layout]]
+monitor = "eDP-1"
+show = true
+left = [
+    "dashboard",
+    "hyprland-workspaces",
+    "media",
+]
+
+[[bar.layout.center]]
+name = "calendar"
+modules = [
+    "clock",
+    "weather",
+]
+
+[[bar.layout.right]]
+name = "performance"
+modules = [
+    "cpu",
+    "ram",
+]
+
+[[bar.layout.right]]
+name = "0:center:1connections"
+modules = [
+    "network",
+    "bluetooth",
+]
+
+[[bar.layout.right]]
+name = "sound"
+modules = [
+    "volume",
+    "microphone",
+]
+
+[[bar.layout.right]]
+name = "group"
+modules = [
+    "brightness",
+    "battery",
+    "power",
+]
+
+[[bar.layout.right]]
+name = "group"
+modules = []
+
+[styling]
+scale = 1.0
+rounding = "none"
+
+[styling.palette]
+bg = "#11111b"
+surface = "#181825"
+elevated = "#1e1e2e"
+fg = "#cdd6f4"
+fg-muted = "#bac2de"
+primary = "#b4befe"
+red = "#f38ba8"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+blue = "#74c7ec"
+
+[modules.battery]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-color = "#cba6f7"
+
+[modules.bluetooth]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-show = false
+label-color = "#cba6f7"
+
+[modules.brightness]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-show = false
+label-color = "#cba6f7"
+
+[modules.clock]
+format = "%a, %b %d, %H:%M"
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-color = "#cba6f7"
+
+[modules.cpu]
+format = "{{ percent }} % / {{ temp_c }} ºC"
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-color = "#cba6f7"
+
+[modules.dashboard]
+border-show = true
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+
+[modules.hyprland-workspaces]
+min-workspace-count = 5
+monitor-specific = false
+icon-gap = 1.2999999523162842
+active-color = "#cba6f7"
+border-show = true
+border-color = "#cba6f7"
+
+[modules.media]
+border-show = true
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-color = "#cba6f7"
+
+[modules.microphone]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-show = false
+label-color = "#cba6f7"
+
+[modules.network]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-show = false
+label-color = "#cba6f7"
+
+[modules.power]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+
+[modules.ram]
+format = "{{ used_gib }} / {{ total_gib }} GB"
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-color = "#cba6f7"
+
+[modules.volume]
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-show = false
+label-color = "#cba6f7"
+
+[modules.weather]
+location = "Ribeirao Preto"
+border-color = "#cba6f7"
+icon-color = "#cba6f7"
+icon-bg-color = "#cba6f7"
+label-color = "#cba6f7"
