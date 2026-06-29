@@ -1,0 +1,18 @@
+{
+    "layer":    "bottom",
+    "position": "top",
+    "height":   "25",
+    "widht":    "0",
+    "modules-left": [
+        
+    ],
+    "modules-center": [
+        "clock#horizontal"
+    ],
+    "modules-right": [
+        
+    ],
+    "spacing": 4,
+    "fixed-center": true,
+    "reload_style_on_change": true
+}

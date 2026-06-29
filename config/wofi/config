@@ -1,0 +1,11 @@
+show=drun
+width=300
+prompt=Search
+allow_images=true
+image_size=18
+hide_scroll=true
+matching=fuzzy
+insensitive=true
+no_actions=true
+lines=10
+normal_window=true
